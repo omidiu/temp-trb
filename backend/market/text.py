@@ -47,7 +47,7 @@ def parse_amount(text: str) -> int | None:
     m = re.search(r"(یک|دو|سه|چهار|پنج)\s*و\s*نیم\s*(میلیارد|میلیون)", t)
     if m:
         return int((words[m[1]] + 0.5) * _UNITS[m[2]])
-    m = re.search(r"(\d+(?:[.,/٫]\d+)?)\s*(میلیارد|میلیون|هزار|م)(?![؀-ۿ])", t)
+    m = re.search(r"(\d+(?:[.,/٫]\d+)?)\s*(میلیارد|میلیون|هزار|م)(?![آ-ی])", t)
     if m:
         num = float(m[1].replace(",", ".").replace("/", ".").replace("٫", "."))
         return int(num * _UNITS[m[2]])

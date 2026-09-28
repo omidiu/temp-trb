@@ -1,24 +1,49 @@
 <script setup lang="ts">
 const route = useRoute()
 const api = useApi()
-const max = computed(() => (route.query.max ? Number(route.query.max) * 1_000_000 : null))
-const { data, pending } = await useAsyncData('search', () =>
-  api<{ results: any[] }>('/search', { intent: { constraints: max.value ? { max_price: max.value } : {} } }),
-  { watch: [max] },
-)
+const meta = await useMeta()
+
+const intent = ref<any>(null)
+const results = ref<any[]>([])
+const loading = ref(false)
+const text = ref(String(route.query.q || ''))
+
+async function runSearch(explicit: any) {
+  loading.value = true
+  try {
+    const res = await api<any>('/search', { intent: explicit })
+    intent.value = res.intent
+    results.value = res.results
+  } finally {
+    loading.value = false
+  }
+}
+async function parseAndSearch(q: string) {
+  loading.value = true
+  const parsed = await api<any>('/intent/parse', { text: q })
+  await runSearch(parsed)
+}
+watch(() => route.query.q, q => { text.value = String(q || ''); parseAndSearch(text.value) }, { immediate: true })
+const submit = () => navigateTo({ path: '/search', query: { q: text.value } })
 </script>
 
 <template>
-  <section>
-    <p class="muted" v-if="max">بودجه تا {{ toman(max) }} تومان</p>
-    <p v-if="pending" class="muted">در حال جستجو…</p>
+  <section class="page">
+    <form class="searchbox" @submit.prevent="submit">
+      <input v-model="text" class="input" placeholder="چه ماشینی لازم داری؟" />
+      <button class="btn">جستجو</button>
+    </form>
+    <ChipBar v-if="intent" :intent="intent" :meta="meta" @change="runSearch" />
+    <p v-if="loading" class="muted">در حال جستجو…</p>
     <div v-else class="list">
-      <OfferCard v-for="o in data?.results" :key="o.id" :offer="o" />
-      <p v-if="!data?.results.length" class="muted">خودرویی پیدا نشد.</p>
+      <OfferCard v-for="o in results" :key="o.id" :offer="o" />
+      <p v-if="!results.length" class="muted">خودرویی پیدا نشد.</p>
     </div>
   </section>
 </template>
 
 <style scoped>
+.page { display: grid; gap: 16px; }
+.searchbox { display: flex; gap: 8px; }
 .list { display: grid; gap: 12px; }
 </style>
