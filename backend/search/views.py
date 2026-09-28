@@ -1,7 +1,8 @@
+from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from market.models import ModelStats
+from market.models import ModelStats, Offer
 from market.serializers import OfferSerializer
 
 from .intent import CONDITION_LABELS, FAMILIES, NEEDS, PREFERENCES, empty_intent, resolve
@@ -62,3 +63,21 @@ class SearchView(APIView):
             "over_budget": serialize_ranked(ranked["over_budget"], stats, limit=20),
             "relaxations": suggestions(intent["constraints"]) if not ranked["main"] else [],
         })
+
+
+class OfferDetailView(APIView):
+    def get(self, request, pk):
+        offer = get_object_or_404(Offer.objects.select_related("vehicle").prefetch_related("listings"), pk=pk)
+        comps = Offer.objects.filter(pk__in=offer.comparable_ids).select_related("vehicle")
+        stats = ModelStats.objects.filter(model_key=offer.vehicle.family).first()
+        data = OfferSerializer(offer).data
+        data["comparables"] = [
+            {"id": c.id, "price": c.price, "year": c.year, "mileage": c.mileage,
+             "body_condition": c.body_condition, "name_fa": c.vehicle.name_fa}
+            for c in sorted(comps, key=lambda c: c.price)
+        ]
+        data["model_stats"] = {"popularity": stats.popularity, "depreciation": stats.depreciation,
+                               "offer_count": stats.offer_count} if stats else None
+        data["listings"] = [{"source": l.source, "url": l.url, "price": l.price, "title": l.title,
+                             "description": l.description[:600]} for l in offer.listings.all()]
+        return Response(data)

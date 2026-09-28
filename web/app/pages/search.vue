@@ -8,6 +8,7 @@ const results = ref<any[]>([])
 const overBudget = ref<any[]>([])
 const count = ref(0)
 const relaxations = ref<any[]>([])
+const ranked = useRanked()
 const loading = ref(false)
 const text = ref(String(route.query.q || ''))
 
@@ -20,6 +21,7 @@ async function runSearch(explicit: any) {
     overBudget.value = res.over_budget
     count.value = res.count
     relaxations.value = res.relaxations
+    ranked.value = Object.fromEntries([...res.results, ...res.over_budget].map((o: any) => [o.id, o]))
   } finally {
     loading.value = false
   }

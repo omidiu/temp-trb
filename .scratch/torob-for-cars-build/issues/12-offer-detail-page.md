@@ -4,9 +4,13 @@
 
 **Blocked by:** 10
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] `GET /api/offers/{id}` returns detail with comparables
-- [ ] Price strip, breakdown bars and source links render right-to-left
+- [x] `GET /api/offers/{id}` returns detail with comparables
+- [x] Price strip, breakdown bars and source links render right-to-left
 
 Spec: [spec.md](../../torob-for-cars/spec.md)
+
+## Notes
+
+- The score breakdown comes from the last search (kept in client state); opening an Offer by direct link shows everything except the breakdown.
