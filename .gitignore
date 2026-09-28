@@ -11,3 +11,11 @@ dist/
 
 # OS
 .DS_Store
+
+# Local dev
+.pgdata/
+.claude/worktrees/
+.env
+node_modules/
+.nuxt/
+.output/
