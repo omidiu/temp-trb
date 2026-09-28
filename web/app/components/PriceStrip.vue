@@ -6,8 +6,8 @@ const range = computed(() => {
   const pad = (hi - lo) * 0.08 || lo * 0.05
   return [lo - pad, hi + pad] as const
 })
-// RTL reading: cheaper on the right.
-const pos = (p: number) => `${((range.value[1] - p) / (range.value[1] - range.value[0])) * 100}%`
+// RTL: inline-start is the right edge, so cheaper prices sit on the right.
+const pos = (p: number) => `${((p - range.value[0]) / (range.value[1] - range.value[0])) * 100}%`
 </script>
 
 <template>

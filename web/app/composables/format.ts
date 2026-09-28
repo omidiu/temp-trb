@@ -1,7 +1,8 @@
 const nf = new Intl.NumberFormat('fa-IR')
+const plain = new Intl.NumberFormat('fa-IR', { useGrouping: false })
 
 export const fa = (n: number | string | null | undefined) =>
-  n === null || n === undefined ? '' : typeof n === 'number' ? nf.format(n) : n.replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[+d])
+  n === null || n === undefined ? '' : typeof n === 'number' ? (Math.abs(n) < 10000 ? plain : nf).format(n) : n.replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[+d])
 
 /** 495_000_000 → "۴۹۵ میلیون"; 1_250_000_000 → "۱٫۲۵ میلیارد" */
 export function toman(n: number | null | undefined) {
