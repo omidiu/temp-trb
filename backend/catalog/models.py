@@ -31,6 +31,7 @@ class Vehicle(models.Model):
     model_fa = models.CharField(max_length=40)
     trim = models.CharField(max_length=60, blank=True)
     trim_fa = models.CharField(max_length=60, blank=True)
+    family = models.CharField(max_length=60, default="", help_text="Groups trims for market stats, e.g. peugeot-206ir or quick")
     year_from = models.PositiveSmallIntegerField(null=True, blank=True)
     year_to = models.PositiveSmallIntegerField(null=True, blank=True)
     body_type = models.CharField(max_length=12, choices=BodyType.choices, default=BodyType.OTHER)
@@ -47,7 +48,7 @@ class Vehicle(models.Model):
 
     @property
     def model_key(self) -> str:
-        return f"{self.make}-{self.model}"
+        return self.family
 
     @property
     def name_fa(self) -> str:

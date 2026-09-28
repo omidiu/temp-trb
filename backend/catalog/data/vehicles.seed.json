@@ -1,0 +1,2808 @@
+[
+ {
+  "id": "peugeot-206ir-type1",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type1",
+  "trim_fa": "تیپ 1",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": null,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type1",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type1"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type2",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type2",
+  "trim_fa": "تیپ 2",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type2",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type2"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type3",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type3",
+  "trim_fa": "تیپ 3",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type3",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type3"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type3panorama",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type3panorama",
+  "trim_fa": "تیپ 3 پانوراما",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type3panorama",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type3panorama"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type4",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type4",
+  "trim_fa": "تیپ 4",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type4",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type4"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type5",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type5",
+  "trim_fa": "تیپ 5",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type5",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type5"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206ir-type6",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206ir",
+  "model_fa": "پژو 206",
+  "trim": "type6",
+  "trim_fa": "تیپ 6",
+  "family": "peugeot-206ir",
+  "year_from": 1380,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206ir-specs-1084-type6",
+  "aliases": {
+   "bama": [
+    "peugeot-206ir-type6"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v1",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v1",
+  "trim_fa": "V1",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.4,
+  "airbags": null,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v1",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v1"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v10",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v10",
+  "trim_fa": "V10",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر دوگانه سوز TU5JP4G",
+  "gearbox": "manual",
+  "fuel_consumption": 7.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v10",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v10"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v19",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v19",
+  "trim_fa": "V19",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v19",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v19"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v2",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v2",
+  "trim_fa": "V2",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر دوگانه سوز TU5JP4G",
+  "gearbox": "manual",
+  "fuel_consumption": 7.4,
+  "airbags": null,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v2",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v2"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v20",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v20",
+  "trim_fa": "V20",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v20",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v20"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v6",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v6",
+  "trim_fa": "V6",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v6",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v6"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v8",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v8",
+  "trim_fa": "V8",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 6.6,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v8",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v8"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-206sd-v9",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "206sd",
+  "model_fa": "پژو 206 SD",
+  "trim": "v9",
+  "trim_fa": "V9",
+  "family": "peugeot-206sd",
+  "year_from": 1385,
+  "year_to": 1400,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5JP4",
+  "gearbox": "manual",
+  "fuel_consumption": 7.3,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/206sd-specs-1085-v9",
+  "aliases": {
+   "bama": [
+    "peugeot-206sd-v9"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-at",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-at",
+  "trim_fa": "اتوماتیک TU5",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-at",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-at"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-attu5p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-attu5p",
+  "trim_fa": "اتوماتیک TU5P",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-attu5p",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-attu5p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-automaticmc",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-automaticmc",
+  "trim_fa": "MC اتوماتیک",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticmc",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-automaticmc"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-automaticpanorama",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-automaticpanorama",
+  "trim_fa": "پانوراما اتوماتیک TU5",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticpanorama",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-automaticpanorama"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-automaticpanoramatu5p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-automaticpanoramatu5p",
+  "trim_fa": "پانوراما اتوماتیک TU5P",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticpanoramatu5p",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-automaticpanoramatu5p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-manualpanorama",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-manualpanorama",
+  "trim_fa": "پانوراما دنده ای TU5",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 6.6,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualpanorama",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-manualpanorama"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-manualpanoramatu5p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-manualpanoramatu5p",
+  "trim_fa": "پانوراما دنده ای TU5P",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "manual",
+  "fuel_consumption": 6.8,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualpanoramatu5p",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-manualpanoramatu5p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-manualtu5p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-manualtu5p",
+  "trim_fa": "دنده ای TU5P",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "manual",
+  "fuel_consumption": 6.8,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualtu5p",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-manualtu5p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-mt",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-mt",
+  "trim_fa": "دنده ای TU5",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-mt",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-mt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-tu3mt",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-tu3mt",
+  "trim_fa": "TU3",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌بک",
+  "engine_cc": 1400,
+  "engine_fa": "4 سیلندر TU3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.3,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-tu3mt",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-tu3mt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-207-381-type5",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "207",
+  "model_fa": "پژو 207",
+  "trim": "381-type5",
+  "trim_fa": "تیپ 5",
+  "family": "peugeot-207",
+  "year_from": 1395,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌بک",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 6.6,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/207-specs-1167-381-type5",
+  "aliases": {
+   "bama": [
+    "peugeot-207-381-type5"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-405-gli",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "405",
+  "model_fa": "پژو 405",
+  "trim": "gli",
+  "trim_fa": "GLI",
+  "family": "peugeot-405",
+  "year_from": 1370,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر L3",
+  "gearbox": "manual",
+  "fuel_consumption": 9.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/405-specs-1087-gli",
+  "aliases": {
+   "bama": [
+    "peugeot-405-gli"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-405-glx",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "405",
+  "model_fa": "پژو 405",
+  "trim": "glx",
+  "trim_fa": "GLX بنزینی",
+  "family": "peugeot-405",
+  "year_from": 1370,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر L3",
+  "gearbox": "manual",
+  "fuel_consumption": 9.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/405-specs-1087-glx",
+  "aliases": {
+   "bama": [
+    "peugeot-405-glx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-405-slx",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "405",
+  "model_fa": "پژو 405",
+  "trim": "slx",
+  "trim_fa": "SLX موتور TU5",
+  "family": "peugeot-405",
+  "year_from": 1370,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/405-specs-1087-slx",
+  "aliases": {
+   "bama": [
+    "peugeot-405-slx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-at",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-at",
+  "trim_fa": "اتوماتیک",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "automatic",
+  "fuel_consumption": 8.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-at",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-at"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-cng",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-cng",
+  "trim_fa": "دوگانه سوز",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7 دوگانه سوز",
+  "gearbox": "manual",
+  "fuel_consumption": 9.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-cng",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-cng"
+   ]
+  },
+  "fuel_type": "dual"
+ },
+ {
+  "id": "peugeot-pars-471-elx",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-elx",
+  "trim_fa": "ELX-XU7",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7J4P",
+  "gearbox": "manual",
+  "fuel_consumption": 8.1,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elx",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-elx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-elxtu5",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-elxtu5",
+  "trim_fa": "ELX-TU5",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxtu5",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-elxtu5"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-elxxu7p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-elxxu7p",
+  "trim_fa": "ELX-XU7P",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7 پلاس",
+  "gearbox": "manual",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxxu7p",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-elxxu7p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-elxxum",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-elxxum",
+  "trim_fa": "ELX-XUM",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1900,
+  "engine_fa": "4 سیلندر XUM",
+  "gearbox": "manual",
+  "fuel_consumption": 8.6,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxxum",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-elxxum"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-lx",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-lx",
+  "trim_fa": "LX",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5",
+  "gearbox": "manual",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-lx",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-lx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-mt",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-mt",
+  "trim_fa": "XU7",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7",
+  "gearbox": "manual",
+  "fuel_consumption": 9.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-mt",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-mt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "peugeot-pars-471-xu7p",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "pars",
+  "model_fa": "پژو پارس",
+  "trim": "471-xu7p",
+  "trim_fa": "XU7P",
+  "family": "peugeot-pars",
+  "year_from": 1379,
+  "year_to": 1402,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7 پلاس",
+  "gearbox": "manual",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-xu7p",
+  "aliases": {
+   "bama": [
+    "peugeot-pars-471-xu7p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-ex",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-ex",
+  "aliases": {
+   "bama": [
+    "pride-111-ex"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-le",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "le",
+  "trim_fa": "LE",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-le",
+  "aliases": {
+   "bama": [
+    "pride-111-le"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-lx",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "lx",
+  "trim_fa": "LX",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-lx",
+  "aliases": {
+   "bama": [
+    "pride-111-lx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-se",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "se",
+  "trim_fa": "SE",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-se",
+  "aliases": {
+   "bama": [
+    "pride-111-se"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-sl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "sl",
+  "trim_fa": "SL",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-sl",
+  "aliases": {
+   "bama": [
+    "pride-111-sl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-111-sx",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "111",
+  "model_fa": "پراید 111",
+  "trim": "sx",
+  "trim_fa": "SX",
+  "family": "pride-111",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/111-specs-1093-sx",
+  "aliases": {
+   "bama": [
+    "pride-111-sx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-ex",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-ex",
+  "aliases": {
+   "bama": [
+    "pride-131-ex"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-le",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "le",
+  "trim_fa": "LE",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-le",
+  "aliases": {
+   "bama": [
+    "pride-131-le"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-se",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "se",
+  "trim_fa": "SE",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-se",
+  "aliases": {
+   "bama": [
+    "pride-131-se"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-sl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "sl",
+  "trim_fa": "SL",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-sl",
+  "aliases": {
+   "bama": [
+    "pride-131-sl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-sx",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "sx",
+  "trim_fa": "SX",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-sx",
+  "aliases": {
+   "bama": [
+    "pride-131-sx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-131-tl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "131",
+  "model_fa": "پراید 131",
+  "trim": "tl",
+  "trim_fa": "TL",
+  "family": "pride-131",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/131-specs-1094-tl",
+  "aliases": {
+   "bama": [
+    "pride-131-tl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-141-basic",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "141",
+  "model_fa": "پراید 141",
+  "trim": "basic",
+  "trim_fa": "ساده",
+  "family": "pride-141",
+  "year_from": 1382,
+  "year_to": 1394,
+  "body_type": "sedan",
+  "body_label_fa": "سدان لیفت‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": false,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/141-specs-1307-basic",
+  "aliases": {
+   "bama": [
+    "pride-141-basic"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-141-ex",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "141",
+  "model_fa": "پراید 141",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "pride-141",
+  "year_from": 1382,
+  "year_to": 1394,
+  "body_type": "sedan",
+  "body_label_fa": "سدان لیفت‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/141-specs-1307-ex",
+  "aliases": {
+   "bama": [
+    "pride-141-ex"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-141-se",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "141",
+  "model_fa": "پراید 141",
+  "trim": "se",
+  "trim_fa": "SE",
+  "family": "pride-141",
+  "year_from": 1382,
+  "year_to": 1394,
+  "body_type": "sedan",
+  "body_label_fa": "سدان لیفت‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/141-specs-1307-se",
+  "aliases": {
+   "bama": [
+    "pride-141-se"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-141-sl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "141",
+  "model_fa": "پراید 141",
+  "trim": "sl",
+  "trim_fa": "SL",
+  "family": "pride-141",
+  "year_from": 1382,
+  "year_to": 1394,
+  "body_type": "sedan",
+  "body_label_fa": "سدان لیفت‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/141-specs-1307-sl",
+  "aliases": {
+   "bama": [
+    "pride-141-sl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-141-sx",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "141",
+  "model_fa": "پراید 141",
+  "trim": "sx",
+  "trim_fa": "SX",
+  "family": "pride-141",
+  "year_from": 1382,
+  "year_to": 1394,
+  "body_type": "sedan",
+  "body_label_fa": "سدان لیفت‌ بک کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/pride/141-specs-1307-sx",
+  "aliases": {
+   "bama": [
+    "pride-141-sx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-hatchback-ex",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "hatchback",
+  "model_fa": "تیبا هاچ بک",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "tiba",
+  "year_from": 1393,
+  "year_to": 1401,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/hatchback-specs-1117-ex",
+  "aliases": {
+   "bama": [
+    "tiba-hatchback-ex"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-hatchback-plus",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "hatchback",
+  "model_fa": "تیبا هاچ بک",
+  "trim": "plus",
+  "trim_fa": "پلاس",
+  "family": "tiba",
+  "year_from": 1393,
+  "year_to": 1401,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/hatchback-specs-1117-plus",
+  "aliases": {
+   "bama": [
+    "tiba-hatchback-plus"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-hatchback-sx",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "hatchback",
+  "model_fa": "تیبا هاچ بک",
+  "trim": "sx",
+  "trim_fa": "SX",
+  "family": "tiba",
+  "year_from": 1393,
+  "year_to": 1401,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/hatchback-specs-1117-sx",
+  "aliases": {
+   "bama": [
+    "tiba-hatchback-sx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-sedan-ex",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "sedan",
+  "model_fa": "تیبا صندوق دار",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "tiba",
+  "year_from": 1388,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/sedan-specs-1118-ex",
+  "aliases": {
+   "bama": [
+    "tiba-sedan-ex"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-sedan-lx",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "sedan",
+  "model_fa": "تیبا صندوق دار",
+  "trim": "lx",
+  "trim_fa": "LX",
+  "family": "tiba",
+  "year_from": 1388,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/sedan-specs-1118-lx",
+  "aliases": {
+   "bama": [
+    "tiba-sedan-lx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-sedan-plus",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "sedan",
+  "model_fa": "تیبا صندوق دار",
+  "trim": "plus",
+  "trim_fa": "پلاس",
+  "family": "tiba",
+  "year_from": 1388,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/sedan-specs-1118-plus",
+  "aliases": {
+   "bama": [
+    "tiba-sedan-plus"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-sedan-sl",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "sedan",
+  "model_fa": "تیبا صندوق دار",
+  "trim": "sl",
+  "trim_fa": "SL",
+  "family": "tiba",
+  "year_from": 1388,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/sedan-specs-1118-sl",
+  "aliases": {
+   "bama": [
+    "tiba-sedan-sl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "tiba-sedan-sx",
+  "make": "tiba",
+  "make_fa": "تیبا",
+  "model": "sedan",
+  "model_fa": "تیبا صندوق دار",
+  "trim": "sx",
+  "trim_fa": "SX بنزینی",
+  "family": "tiba",
+  "year_from": 1388,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/tiba/sedan-specs-1118-sx",
+  "aliases": {
+   "bama": [
+    "tiba-sedan-sx"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plus-basicmanual",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plus",
+  "model_fa": "دنا پلاس EF7",
+  "trim": "basicmanual",
+  "trim_fa": "5 دنده ساده",
+  "family": "dena",
+  "year_from": 1396,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/dena/plus-specs-1207-basicmanual",
+  "aliases": {
+   "bama": [
+    "dena-plus-basicmanual"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plus-turbo",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plus",
+  "model_fa": "دنا پلاس EF7",
+  "trim": "turbo",
+  "trim_fa": "5 دنده توربو",
+  "family": "dena",
+  "year_from": 1396,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر توربوشارژ EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/dena/plus-specs-1207-turbo",
+  "aliases": {
+   "bama": [
+    "dena-plus-turbo"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plus-turbo6mt",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plus",
+  "model_fa": "دنا پلاس EF7",
+  "trim": "turbo6mt",
+  "trim_fa": "6 دنده توربو",
+  "family": "dena",
+  "year_from": 1396,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر توربوشارژ EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.8,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/dena/plus-specs-1207-turbo6mt",
+  "aliases": {
+   "bama": [
+    "dena-plus-turbo6mt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plus-turboautomatic",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plus",
+  "model_fa": "دنا پلاس EF7",
+  "trim": "turboautomatic",
+  "trim_fa": "اتوماتیک توربو ساده",
+  "family": "dena",
+  "year_from": 1396,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر توربوشارژ EF7",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.8,
+  "airbags": 4,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/dena/plus-specs-1207-turboautomatic",
+  "aliases": {
+   "bama": [
+    "dena-plus-turboautomatic"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plus-turboautomaticoptional",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plus",
+  "model_fa": "دنا پلاس EF7",
+  "trim": "turboautomaticoptional",
+  "trim_fa": "اتوماتیک توربو آپشنال",
+  "family": "dena",
+  "year_from": 1396,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر توربوشارژ EF7",
+  "gearbox": "automatic",
+  "fuel_consumption": 8.1,
+  "airbags": 4,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/dena/plus-specs-1207-turboautomaticoptional",
+  "aliases": {
+   "bama": [
+    "dena-plus-turboautomaticoptional"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "dena-plusef7p",
+  "make": "dena",
+  "make_fa": "دنا",
+  "model": "plusef7p",
+  "model_fa": "دنا پلاس EF7P 6 دنده",
+  "trim": "",
+  "trim_fa": "",
+  "family": "dena",
+  "year_from": 1403,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7P",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/dena/plusef7p-specs-1481-6mt",
+  "aliases": {
+   "bama": [
+    "dena-plusef7p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "samand-lx-basic",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "lx",
+  "model_fa": "سمند LX",
+  "trim": "basic",
+  "trim_fa": "XU7",
+  "family": "samand-lx",
+  "year_from": 1382,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7",
+  "gearbox": "manual",
+  "fuel_consumption": 8.3,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/samand/lx-specs-1111-basic",
+  "aliases": {
+   "bama": [
+    "samand-lx-basic"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "samand-lx-ef7",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "lx",
+  "model_fa": "سمند LX",
+  "trim": "ef7",
+  "trim_fa": "EF7",
+  "family": "samand-lx",
+  "year_from": 1382,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/samand/lx-specs-1111-ef7",
+  "aliases": {
+   "bama": [
+    "samand-lx-ef7"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "samand-lx-ef7cng",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "lx",
+  "model_fa": "سمند LX",
+  "trim": "ef7cng",
+  "trim_fa": "EF7 دوگانه سوز",
+  "family": "samand-lx",
+  "year_from": 1382,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/samand/lx-specs-1111-ef7cng",
+  "aliases": {
+   "bama": [
+    "samand-lx-ef7cng"
+   ]
+  },
+  "fuel_type": "dual"
+ },
+ {
+  "id": "samand-soren-459-plus",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "soren",
+  "model_fa": "سمند سورن",
+  "trim": "459-plus",
+  "trim_fa": "پلاس EF7 بنزینی",
+  "family": "samand-soren",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7",
+  "gearbox": "manual",
+  "fuel_consumption": 7.3,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/samand/soren-specs-1113-459-plus",
+  "aliases": {
+   "bama": [
+    "samand-soren-459-plus"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "samand-soren-459-pluscng",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "soren",
+  "model_fa": "سمند سورن",
+  "trim": "459-pluscng",
+  "trim_fa": "پلاس EF7 دوگانه سوز",
+  "family": "samand-soren",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1700,
+  "engine_fa": "4 سیلندر EF7 دوگانه سوز",
+  "gearbox": "manual",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/samand/soren-specs-1113-459-pluscng",
+  "aliases": {
+   "bama": [
+    "samand-soren-459-pluscng"
+   ]
+  },
+  "fuel_type": "dual"
+ },
+ {
+  "id": "samand-soren-459-plustu5p",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "soren",
+  "model_fa": "سمند سورن",
+  "trim": "459-plustu5p",
+  "trim_fa": "پلاس TU5P",
+  "family": "samand-soren",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر TU5P",
+  "gearbox": "manual",
+  "fuel_consumption": 6.9,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/samand/soren-specs-1113-459-plustu5p",
+  "aliases": {
+   "bama": [
+    "samand-soren-459-plustu5p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "samand-soren-459-plusxu7p",
+  "make": "samand",
+  "make_fa": "سمند",
+  "model": "soren",
+  "model_fa": "سمند سورن",
+  "trim": "459-plusxu7p",
+  "trim_fa": "پلاس XU7P بنزینی",
+  "family": "samand-soren",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر XU7P",
+  "gearbox": "manual",
+  "fuel_consumption": 7.6,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/samand/soren-specs-1113-459-plusxu7p",
+  "aliases": {
+   "bama": [
+    "samand-soren-459-plusxu7p"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-atfull",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "atfull",
+  "model_fa": "کوییک اتوماتیک",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1397,
+  "year_to": 1397,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/atfull-specs-1173",
+  "aliases": {
+   "bama": [
+    "quick-atfull"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-atfullplus",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "atfullplus",
+  "model_fa": "کوییک اتوماتیک پلاس",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1397,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/atfullplus-specs-1172",
+  "aliases": {
+   "bama": [
+    "quick-atfullplus"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-gx-hmt",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "gx",
+  "model_fa": "کوییک GX",
+  "trim": "hmt",
+  "trim_fa": "H دنده ای",
+  "family": "quick",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15i بهبودیافته",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/quick/gx-specs-1448-hmt",
+  "aliases": {
+   "bama": [
+    "quick-gx-hmt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-gx-lmt",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "gx",
+  "model_fa": "کوییک GX",
+  "trim": "lmt",
+  "trim_fa": "L دنده ای",
+  "family": "quick",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15i بهبودیافته",
+  "gearbox": "manual",
+  "fuel_consumption": 6.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/quick/gx-specs-1448-lmt",
+  "aliases": {
+   "bama": [
+    "quick-gx-lmt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-gxr-hmt",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "gxr",
+  "model_fa": "کوییک GXR",
+  "trim": "hmt",
+  "trim_fa": "H دنده ای",
+  "family": "quick",
+  "year_from": 1403,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15i بهبودیافته",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/quick/gxr-specs-1584-hmt",
+  "aliases": {
+   "bama": [
+    "quick-gxr-hmt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-gxr-lmt",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "gxr",
+  "model_fa": "کوییک GXR",
+  "trim": "lmt",
+  "trim_fa": "L دنده ای",
+  "family": "quick",
+  "year_from": 1403,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15i بهبودیافته",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/quick/gxr-specs-1584-lmt",
+  "aliases": {
+   "bama": [
+    "quick-gxr-lmt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-manual",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "manual",
+  "model_fa": "کوییک دنده ای",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1397,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15 یورو4",
+  "gearbox": "manual",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/manual-specs-1343",
+  "aliases": {
+   "bama": [
+    "quick-manual"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-manualr",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "manualr",
+  "model_fa": "کوییک دنده ای R",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1398,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15 یورو4",
+  "gearbox": "manual",
+  "fuel_consumption": 7.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/manualr-specs-1354",
+  "aliases": {
+   "bama": [
+    "quick-manualr"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-manualrplus-at",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "manualrplus",
+  "model_fa": "کوییک R پلاس",
+  "trim": "at",
+  "trim_fa": "اتوماتیک",
+  "family": "quick",
+  "year_from": 1399,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.8,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/manualrplus-specs-1370-at",
+  "aliases": {
+   "bama": [
+    "quick-manualrplus-at"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-manualrplus-mt",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "manualrplus",
+  "model_fa": "کوییک R پلاس",
+  "trim": "mt",
+  "trim_fa": "دنده ای",
+  "family": "quick",
+  "year_from": 1399,
+  "year_to": 1402,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "/car-reviews/quick/manualrplus-specs-1370-mt",
+  "aliases": {
+   "bama": [
+    "quick-manualrplus-mt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-manuals",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "manuals",
+  "model_fa": "کوییک دنده ای S",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/quick/manuals-specs-1379",
+  "aliases": {
+   "bama": [
+    "quick-manuals"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "quick-sr",
+  "make": "quick",
+  "make_fa": "کوییک",
+  "model": "sr",
+  "model_fa": "کوییک SR دنده ای",
+  "trim": "",
+  "trim_fa": "",
+  "family": "quick",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "hatchback",
+  "body_label_fa": "هاچ بک کوچک",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر M15",
+  "gearbox": "manual",
+  "fuel_consumption": 7.1,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/quick/sr-specs-1583-mt",
+  "aliases": {
+   "bama": [
+    "quick-sr"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-g",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "g",
+  "model_fa": "شاهین G دنده ای",
+  "trim": "",
+  "trim_fa": "",
+  "family": "shahin",
+  "year_from": 1399,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر توربوشارژ (M15T)",
+  "gearbox": "manual",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/shahin/g-specs-1360",
+  "aliases": {
+   "bama": [
+    "shahin-g"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-gautomatic-cvt",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "gautomatic",
+  "model_fa": "شاهین اتوماتیک CVT",
+  "trim": "cvt",
+  "trim_fa": "تیپ G",
+  "family": "shahin",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر توربوشارژ (M15T)",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/shahin/gautomatic-specs-1442-cvt",
+  "aliases": {
+   "bama": [
+    "shahin-gautomatic-cvt"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-gautomatic-cvtgl",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "gautomatic",
+  "model_fa": "شاهین اتوماتیک CVT",
+  "trim": "cvtgl",
+  "trim_fa": "تیپ GL",
+  "family": "shahin",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر توربوشارژ (M15T)",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.5,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/shahin/gautomatic-specs-1442-cvtgl",
+  "aliases": {
+   "bama": [
+    "shahin-gautomatic-cvtgl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-gl",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "gl",
+  "model_fa": "شاهین GL دنده ای",
+  "trim": "",
+  "trim_fa": "",
+  "family": "shahin",
+  "year_from": 1402,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1500,
+  "engine_fa": "4 سیلندر توربوشارژ (M15T)",
+  "gearbox": "manual",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": null,
+  "bama_url": "/car-reviews/shahin/gl-specs-1454",
+  "aliases": {
+   "bama": [
+    "shahin-gl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-plusat-at6",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "plusat",
+  "model_fa": "شاهین پلاس اتوماتیک AT",
+  "trim": "at6",
+  "trim_fa": "تیپ G",
+  "family": "shahin",
+  "year_from": 1403,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر (ME16)",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/shahin/plusat-specs-1500-at6",
+  "aliases": {
+   "bama": [
+    "shahin-plusat-at6"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "shahin-plusat-at6gl",
+  "make": "shahin",
+  "make_fa": "شاهین",
+  "model": "plusat",
+  "model_fa": "شاهین پلاس اتوماتیک AT",
+  "trim": "at6gl",
+  "trim_fa": "تیپ GL",
+  "family": "shahin",
+  "year_from": 1403,
+  "year_to": 1405,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1600,
+  "engine_fa": "4 سیلندر (ME16)",
+  "gearbox": "automatic",
+  "fuel_consumption": 7.2,
+  "airbags": 2,
+  "abs": true,
+  "esc": true,
+  "bama_url": "/car-reviews/shahin/plusat-specs-1500-at6gl",
+  "aliases": {
+   "bama": [
+    "shahin-plusat-at6gl"
+   ]
+  },
+  "fuel_type": "gasoline"
+ },
+ {
+  "id": "pride-132-ex",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "ex",
+  "trim_fa": "EX",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-ex"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "pride-132-le",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "le",
+  "trim_fa": "LE",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": 1,
+  "abs": false,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-le"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "pride-132-se",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "se",
+  "trim_fa": "SE",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-se"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "pride-132-sl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "sl",
+  "trim_fa": "SL",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-sl"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "pride-132-sx",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "sx",
+  "trim_fa": "SX",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو3 (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.7,
+  "airbags": null,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-sx"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "pride-132-tl",
+  "make": "pride",
+  "make_fa": "پراید",
+  "model": "132",
+  "model_fa": "پراید 132",
+  "trim": "tl",
+  "trim_fa": "TL",
+  "family": "pride-132",
+  "year_from": 1389,
+  "year_to": 1399,
+  "body_type": "hatchback",
+  "body_label_fa": "سدان کوچک",
+  "engine_cc": 1300,
+  "engine_fa": "4 سیلندر یورو4 بهینه (M13)",
+  "gearbox": "manual",
+  "fuel_consumption": 6.4,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "pride-132-tl"
+   ]
+  },
+  "fuel_type": "gasoline",
+  "note": "copied from Pride 131 specs (hand review)"
+ }
+]
