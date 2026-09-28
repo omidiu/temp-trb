@@ -19,3 +19,6 @@ dist/
 node_modules/
 .nuxt/
 .output/
+
+# Snapshots contain third-party ad text; keep them out of git
+backend/snapshots/

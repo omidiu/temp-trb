@@ -4,10 +4,14 @@
 
 **Blocked by:** 07
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] `build_snapshot` runs crawl, normalize, dedup and compute_market in order
-- [ ] Snapshot export and import commands
-- [ ] Documented in README
+- [x] `build_snapshot` runs crawl, normalize, dedup and compute_market in order
+- [x] Snapshot export and import commands
+- [x] Documented in README
 
 Spec: [spec.md](../../torob-for-cars/spec.md)
+
+## Notes
+
+- Export leaves out raw payloads (431 KB for ~1k Offers) and is gitignored because it holds third-party ad text. Import verified into a fresh database.
