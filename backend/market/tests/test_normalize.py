@@ -6,7 +6,7 @@ import pytest
 from catalog.models import Vehicle, VehicleAlias
 from ingest.models import RawListing
 from market.normalize import normalize_all
-from market.offers import rebuild_offers_one_to_one
+from market.offers import rebuild_offers
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -22,10 +22,10 @@ def raw(db):
 
 def test_unmatched_without_alias_is_kept_but_not_offered(raw):
     assert normalize_all() == {"total": 1, "matched": 0}
-    assert rebuild_offers_one_to_one() == 0
+    assert rebuild_offers()["offers"] == 0
 
 
 def test_alias_match_becomes_offer(raw):
     VehicleAlias.objects.create(source="divar", raw_name="peugeot 206 2", vehicle_id="peugeot-206ir-type2", method="manual")
     assert normalize_all() == {"total": 1, "matched": 1}
-    assert rebuild_offers_one_to_one() == 1
+    assert rebuild_offers()["offers"] == 1

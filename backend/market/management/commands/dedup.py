@@ -1,11 +1,12 @@
 from django.core.management.base import BaseCommand
 
-from market.offers import rebuild_offers_one_to_one
+from market.offers import rebuild_offers
 
 
 class Command(BaseCommand):
-    help = "Rebuild Offers from searchable Listings."
+    help = "Rebuild Offers from searchable Listings, merging Listings of the same car."
 
     def handle(self, *args, **options):
-        n = rebuild_offers_one_to_one()
-        self.stdout.write(self.style.SUCCESS(f"{n} offers"))
+        s = rebuild_offers()
+        self.stdout.write(self.style.SUCCESS(
+            f"{s['listings']} listings → {s['offers']} offers ({s['merged']} merged from 2+ listings)"))
