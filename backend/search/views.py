@@ -1,11 +1,13 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from market.models import Offer
+from market.models import ModelStats
 from market.serializers import OfferSerializer
 
 from .intent import CONDITION_LABELS, FAMILIES, NEEDS, PREFERENCES, empty_intent, resolve
 from .parse import parse
+from .ranking import rank
+from .reasons import one_line
 
 
 def explicit_intent(data) -> dict:
@@ -37,12 +39,24 @@ class NeedsView(APIView):
         })
 
 
+def serialize_ranked(rows, stats, limit=60):
+    out = []
+    for r in rows[:limit]:
+        data = OfferSerializer(r["offer"]).data
+        data.update(score=r["score"], deal=r["deal"], breakdown=r["breakdown"], reason=one_line(r, stats))
+        out.append(data)
+    return out
+
+
 class SearchView(APIView):
     def post(self, request):
         intent = resolve(explicit_intent(request.data.get("intent")))
-        c = intent["constraints"]
-        offers = Offer.objects.select_related("vehicle").prefetch_related("listings")
-        if c.get("max_price") is not None:
-            offers = offers.filter(price__lte=c["max_price"])
-        offers = offers.order_by("price")
-        return Response({"intent": intent, "results": OfferSerializer(offers[:100], many=True).data})
+        ranked = rank(intent)
+        stats = {m.model_key: m for m in ModelStats.objects.all()}
+        return Response({
+            "intent": intent,
+            "top_pick": ranked["top_pick"],
+            "count": len(ranked["main"]),
+            "results": serialize_ranked(ranked["main"], stats),
+            "over_budget": serialize_ranked(ranked["over_budget"], stats, limit=20),
+        })
