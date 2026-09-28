@@ -2804,5 +2804,34 @@
   },
   "fuel_type": "gasoline",
   "note": "copied from Pride 131 specs (hand review)"
+ },
+ {
+  "id": "peugeot-405-glxcng",
+  "make": "peugeot",
+  "make_fa": "پژو",
+  "model": "405",
+  "model_fa": "پژو 405",
+  "trim": "glxcng",
+  "trim_fa": "GLX دوگانه سوز",
+  "family": "peugeot-405",
+  "year_from": 1370,
+  "year_to": 1401,
+  "body_type": "sedan",
+  "body_label_fa": "سدان جمع و جور",
+  "engine_cc": 1800,
+  "engine_fa": "4 سیلندر L3",
+  "gearbox": "manual",
+  "fuel_consumption": 9.0,
+  "airbags": 2,
+  "abs": true,
+  "esc": false,
+  "bama_url": "",
+  "aliases": {
+   "bama": [
+    "peugeot-405-glxcng"
+   ]
+  },
+  "fuel_type": "dual",
+  "note": "copied from 405 GLX specs, dual fuel (hand review)"
  }
 ]

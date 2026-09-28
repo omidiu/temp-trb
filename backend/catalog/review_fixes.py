@@ -33,6 +33,13 @@ def fix(rows):
                     note="copied from Pride 131 specs (hand review)")
         if r132["id"] not in ids:
             rows.append(r132)
+    # Peugeot 405 GLX bi-fuel is common on Divar and Bama but missing from Bama's review index.
+    glx = next((r for r in rows if r["id"] == "peugeot-405-glx"), None)
+    if glx and "peugeot-405-glxcng" not in ids:
+        cng = copy.deepcopy(glx)
+        cng.update(id="peugeot-405-glxcng", trim="glxcng", trim_fa="GLX دوگانه سوز", fuel_type="dual", bama_url="",
+                   aliases={"bama": ["peugeot-405-glxcng"]}, note="copied from 405 GLX specs, dual fuel (hand review)")
+        rows.append(cng)
     return rows
 
 
