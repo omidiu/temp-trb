@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: trb
+      POSTGRES_PASSWORD: trb
+      POSTGRES_DB: trb
+    volumes: [pgdata:/var/lib/postgresql/data]
+    ports: ["5433:5432"]
+
+  api:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgres://trb:trb@db:5432/trb
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes: ["./backend:/app"]
+    ports: ["8000:8000"]
+    depends_on: [db]
+
+  web:
+    build: ./web
+    environment:
+      NUXT_PUBLIC_API_BASE: http://localhost:8000/api
+    ports: ["3000:3000"]
+    depends_on: [api]
+
+volumes:
+  pgdata:

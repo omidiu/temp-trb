@@ -4,11 +4,17 @@
 
 **Blocked by:** None (can start immediately)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Docker Compose file with db (Postgres 16), api (Django + DRF) and web (Nuxt 3)
-- [ ] `POST /api/search` returns Offers filtered by a max-price Constraint
-- [ ] Nuxt results page renders right-to-left with Vazirmatn and Persian digits
-- [ ] A test covers the budget filter
+- [x] Docker Compose file with db (Postgres 16), api (Django + DRF) and web (Nuxt 3)
+- [x] `POST /api/search` returns Offers filtered by a max-price Constraint
+- [x] Nuxt results page renders right-to-left with Vazirmatn and Persian digits
+- [x] A test covers the budget filter
 
 Spec: [spec.md](../../torob-for-cars/spec.md)
+
+## Notes
+
+- Django pinned to 5.2 LTS: 6.x needs Postgres ≥ 15 and the local machine has 14.
+- Nuxt 4 (current) instead of 3; plain CSS tokens instead of Tailwind to keep dependencies down.
+- Docker Compose written but not run: the Docker daemon was down during the build.
