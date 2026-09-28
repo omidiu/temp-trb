@@ -4,9 +4,14 @@
 
 **Blocked by:** 10
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Tries relaxing each Constraint alone; returns the smallest relaxations that yield results, with counts
-- [ ] UI shows them as one-tap chips that update the Intent
+- [x] Tries relaxing each Constraint alone; returns the smallest relaxations that yield results, with counts
+- [x] UI shows them as one-tap chips that update the Intent
 
 Spec: [spec.md](../../torob-for-cars/spec.md)
+
+## Notes
+
+- A budget suggestion is the smallest budget (rounded up to 10M) that gives at least 5 results under the other Constraints; other Constraints are loosened or removed one at a time.
+- On the current data "فقط اتوماتیک زیر ۳۰۰ میلیون" still returns 1 car; pick a tighter demo example (e.g. under 250M) after the final snapshot.

@@ -7,6 +7,7 @@ const intent = ref<any>(null)
 const results = ref<any[]>([])
 const overBudget = ref<any[]>([])
 const count = ref(0)
+const relaxations = ref<any[]>([])
 const loading = ref(false)
 const text = ref(String(route.query.q || ''))
 
@@ -18,6 +19,7 @@ async function runSearch(explicit: any) {
     results.value = res.results
     overBudget.value = res.over_budget
     count.value = res.count
+    relaxations.value = res.relaxations
   } finally {
     loading.value = false
   }
@@ -28,6 +30,10 @@ async function parseAndSearch(q: string) {
   await runSearch(parsed)
 }
 watch(() => route.query.q, q => { text.value = String(q || ''); parseAndSearch(text.value) }, { immediate: true })
+function relax(patch: Record<string, unknown>) {
+  const i = intent.value
+  runSearch({ text: i.text, constraints: { ...i.constraints, ...patch }, preferences: i.preferences, needs: i.needs, spans: i.spans, source: 'edited' })
+}
 const submit = () => navigateTo({ path: '/search', query: { q: text.value } })
 </script>
 
@@ -43,7 +49,17 @@ const submit = () => navigateTo({ path: '/search', query: { q: text.value } })
       <p v-if="results.length" class="muted">{{ fa(count) }} خودرو، مرتب‌شده بر اساس تطابق با خواسته‌ها و منصفانه بودن قیمت</p>
       <div class="list">
         <OfferCard v-for="o in results" :key="o.id" :offer="o" />
-        <p v-if="!results.length" class="muted">خودرویی پیدا نشد.</p>
+        <div v-if="!results.length" class="card empty">
+          <p>با این شرط‌ها خودرویی پیدا نشد.</p>
+          <template v-if="relaxations.length">
+            <p class="muted">با یک تغییر کوچک:</p>
+            <div class="relax">
+              <button v-for="r in relaxations" :key="r.label" class="btn ghost" @click="relax(r.patch)">
+                {{ r.label }}: {{ fa(r.count) }} خودرو
+              </button>
+            </div>
+          </template>
+        </div>
       </div>
       <template v-if="overBudget.length">
         <h2 class="group">کمی بالاتر از بودجه (تا ۱۰٪)</h2>
@@ -58,4 +74,7 @@ const submit = () => navigateTo({ path: '/search', query: { q: text.value } })
 .searchbox { display: flex; gap: 8px; }
 .list { display: grid; gap: 12px; }
 .group { font-size: 1.1rem; margin: 12px 0 0; }
+.empty p { margin: 0 0 8px; }
+.relax { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn.ghost { background: var(--accent-soft); color: var(--accent); }
 </style>

@@ -8,6 +8,7 @@ from .intent import CONDITION_LABELS, FAMILIES, NEEDS, PREFERENCES, empty_intent
 from .parse import parse
 from .ranking import rank
 from .reasons import one_line
+from .relax import suggestions
 
 
 def explicit_intent(data) -> dict:
@@ -59,4 +60,5 @@ class SearchView(APIView):
             "count": len(ranked["main"]),
             "results": serialize_ranked(ranked["main"], stats),
             "over_budget": serialize_ranked(ranked["over_budget"], stats, limit=20),
+            "relaxations": suggestions(intent["constraints"]) if not ranked["main"] else [],
         })

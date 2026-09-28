@@ -64,3 +64,11 @@ def test_family_need_prefers_sedan(market):
     top = r["main"][0]
     assert top["offer"].vehicle.body_type == "sedan"
     assert any(b["key"] == "body_sedan" and b["weight"] == 2 for b in top["breakdown"])
+
+
+def test_zero_results_relaxations(market):
+    from search.relax import suggestions
+    s = suggestions({**empty_intent()["constraints"], "max_price": 500_000_000, "gearbox": "automatic"})
+    labels = {x["label"]: x for x in s}
+    assert "با گیربکس دستی" in labels and labels["با گیربکس دستی"]["patch"] == {"gearbox": None}
+    assert labels["با گیربکس دستی"]["count"] >= 1
