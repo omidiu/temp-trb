@@ -8,6 +8,7 @@ from catalog.models import Vehicle, VehicleAlias
 from market.normalize import alias_key
 
 FIELDS = [f.name for f in Vehicle._meta.fields]
+DIVAR_ALIASES = SEED.parent / "divar_aliases.json"
 
 
 class Command(BaseCommand):
@@ -24,4 +25,10 @@ class Command(BaseCommand):
                         source=source, raw_name=alias_key(name),
                         defaults={"vehicle_id": row["id"], "method": VehicleAlias.Method.SEED},
                     )
-        self.stdout.write(self.style.SUCCESS(f"{len(rows)} vehicles loaded"))
+        divar = json.loads(DIVAR_ALIASES.read_text())
+        for name, vid in divar.items():
+            VehicleAlias.objects.update_or_create(
+                source="divar", raw_name=alias_key(name),
+                defaults={"vehicle_id": vid, "method": VehicleAlias.Method.MANUAL},
+            )
+        self.stdout.write(self.style.SUCCESS(f"{len(rows)} vehicles and {len(divar)} Divar aliases loaded"))
