@@ -6,6 +6,7 @@ from market.models import ModelStats, Offer
 from market.serializers import OfferSerializer
 
 from .intent import CONDITION_LABELS, FAMILIES, NEEDS, PREFERENCES, empty_intent, resolve
+from .explain import explain
 from .parse import parse
 from .ranking import rank
 from .reasons import one_line
@@ -81,3 +82,10 @@ class OfferDetailView(APIView):
         data["listings"] = [{"source": l.source, "url": l.url, "price": l.price, "title": l.title,
                              "description": l.description[:600]} for l in offer.listings.all()]
         return Response(data)
+
+
+class ExplainView(APIView):
+    def post(self, request):
+        intent = resolve(explicit_intent(request.data.get("intent")))
+        ranked = rank(intent)
+        return Response(explain(intent, ranked["main"][:3]))

@@ -24,7 +24,7 @@ def pref_phrase(key: str, score: float, o: Offer, stats: dict) -> str:
     if key == "cheaper":
         return f"ارزان‌تر از {fa.pct(score)} گزینه‌ها"
     if key == "newer":
-        return f"مدل {fa.num(o.year)}"
+        return f"مدل {fa.digits(o.year)}"
     if key == "low_mileage":
         return f"{fa.num(o.mileage)} کیلومتر کارکرد"
     if key == "low_fuel" and v.fuel_consumption:

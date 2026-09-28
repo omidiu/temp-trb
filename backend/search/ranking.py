@@ -72,8 +72,9 @@ def passes(o: Offer, c: dict, max_price_factor: float = 1.0) -> bool:
 
 
 def candidates(c: dict) -> tuple[list[Offer], list[Offer]]:
-    """(within budget, up to 10% over budget). Placeholder-price Offers are never searchable."""
-    pool = Offer.objects.select_related("vehicle").prefetch_related("listings").exclude(exclusion="placeholder")
+    """(within budget, up to 10% over budget). Excluded Offers (instalment, pre-sale, placeholder price)
+    are never searchable: their shown price isn't the car's price, so budgets can't apply to them."""
+    pool = Offer.objects.select_related("vehicle").prefetch_related("listings").filter(exclusion="")
     main, over = [], []
     for o in pool:
         if passes(o, c):

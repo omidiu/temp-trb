@@ -9,6 +9,22 @@ const overBudget = ref<any[]>([])
 const count = ref(0)
 const relaxations = ref<any[]>([])
 const ranked = useRanked()
+const topPickId = ref<number | null>(null)
+const explanation = ref<any>(null)
+const explaining = ref(false)
+const topPick = computed(() => results.value.find(o => o.id === topPickId.value))
+const rest = computed(() => results.value.filter(o => o.id !== topPickId.value))
+
+async function loadExplanation(explicit: any) {
+  explanation.value = null
+  if (!topPickId.value) return
+  explaining.value = true
+  try {
+    explanation.value = await api<any>('/explain', { intent: explicit })
+  } finally {
+    explaining.value = false
+  }
+}
 const loading = ref(false)
 const text = ref(String(route.query.q || ''))
 
@@ -21,6 +37,8 @@ async function runSearch(explicit: any) {
     overBudget.value = res.over_budget
     count.value = res.count
     relaxations.value = res.relaxations
+    topPickId.value = res.top_pick
+    loadExplanation(explicit)
     ranked.value = Object.fromEntries([...res.results, ...res.over_budget].map((o: any) => [o.id, o]))
   } finally {
     loading.value = false
@@ -50,7 +68,8 @@ const submit = () => navigateTo({ path: '/search', query: { q: text.value } })
     <template v-else>
       <p v-if="results.length" class="muted">{{ fa(count) }} خودرو، مرتب‌شده بر اساس تطابق با خواسته‌ها و منصفانه بودن قیمت</p>
       <div class="list">
-        <OfferCard v-for="o in results" :key="o.id" :offer="o" />
+        <TopPick v-if="topPick" :offer="topPick" :explanation="explanation" :loading="explaining" />
+        <OfferCard v-for="o in rest" :key="o.id" :offer="o" />
         <div v-if="!results.length" class="card empty">
           <p>با این شرط‌ها خودرویی پیدا نشد.</p>
           <template v-if="relaxations.length">

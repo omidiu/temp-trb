@@ -13,7 +13,7 @@ MIN_USEFUL = 5  # a budget suggestion aims for at least this many results
 
 
 def _pool():
-    return list(Offer.objects.select_related("vehicle").exclude(exclusion="placeholder"))
+    return list(Offer.objects.select_related("vehicle").filter(exclusion=""))
 
 
 def _count(pool, c):
@@ -55,7 +55,7 @@ def suggestions(constraints: dict, limit: int = 4) -> list[dict]:
         names = "، ".join(FAMILIES.get(m, m) for m in c["exclude_models"])
         try_patch(f"با {names} هم", {"exclude_models": []})
     if c.get("min_year") is not None:
-        try_patch(f"مدل‌های قدیمی‌تر از {fa.num(c['min_year'])} هم", {"min_year": None})
+        try_patch(f"مدل‌های قدیمی‌تر از {fa.digits(c['min_year'])} هم", {"min_year": None})
     if c.get("max_mileage") is not None:
         try_patch("بدون سقف کارکرد", {"max_mileage": None})
     if c.get("min_price") is not None:

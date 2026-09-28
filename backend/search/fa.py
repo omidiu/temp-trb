@@ -9,6 +9,11 @@ def num(n) -> str:
     return f"{int(n):,}".replace(",", "٬").translate(_FA)
 
 
+def digits(n) -> str:
+    """Plain digits, no grouping: years, counts."""
+    return str(n).translate(_FA)
+
+
 def toman(n: int) -> str:
     """495_000_000 → '۴۹۵ میلیون'; 1_250_000_000 → '۱٫۲۵ میلیارد'."""
     if abs(n) >= 1_000_000_000:

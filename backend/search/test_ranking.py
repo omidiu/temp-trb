@@ -38,6 +38,7 @@ def market(db):
         "over_budget": mk("dena-plus-turbo", 850_000_000, verdict="great", p=0.95),
         "too_expensive": mk("dena-plus-turbo", 950_000_000),
         "placeholder": mk("quick-manualr", 1_000, exclusion="placeholder"),
+        "instalment": mk("quick-manualr", 100_000_000, exclusion="instalment"),
     }
 
 
@@ -50,7 +51,7 @@ def intent_with(**constraints):
 def test_filters_groups_and_top_pick(market):
     r = rank(resolve(intent_with(max_price=800_000_000)))
     main_ids = [x["offer"].pk for x in r["main"]]
-    assert market["placeholder"].pk not in main_ids
+    assert market["placeholder"].pk not in main_ids and market["instalment"].pk not in main_ids
     assert market["too_expensive"].pk not in main_ids
     assert [x["offer"].pk for x in r["over_budget"]] == [market["over_budget"].pk]
     assert r["top_pick"] == market["great_dena"].pk
