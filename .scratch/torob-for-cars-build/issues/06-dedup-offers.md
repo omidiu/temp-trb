@@ -4,11 +4,15 @@
 
 **Blocked by:** 04, 05
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Same trim + model year + condition class, mileage within 1,000 km and price within 3% merge into one Offer
-- [ ] Offer price is the lowest; attributes come from the most complete Listing (Bama first)
-- [ ] `dedup` command rebuilds Offers idempotently
-- [ ] Tests for merge and non-merge cases
+- [x] Same trim + model year + condition class, mileage within 1,000 km and price within 3% merge into one Offer
+- [x] Offer price is the lowest; attributes come from the most complete Listing (Bama first)
+- [x] `dedup` command rebuilds Offers idempotently
+- [x] Tests for merge and non-merge cases
 
 Spec: [spec.md](../../torob-for-cars/spec.md)
+
+## Notes
+
+- First full run: 1,167 searchable Listings → 1,065 Offers, 52 merged from 2+ Listings.
