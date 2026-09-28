@@ -5,6 +5,17 @@
  "Peugeot 206 5": "peugeot-206ir-type5",
  "Peugeot 206 6": "peugeot-206ir-type6",
  "Peugeot 206 SD V1": "peugeot-206sd-v1",
+ "Peugeot 206 SD V20": "peugeot-206sd-v20",
  "Peugeot 206 SD V8": "peugeot-206sd-v8",
- "Peugeot 206 SD V9": "peugeot-206sd-v9"
+ "Peugeot 206 SD V9": "peugeot-206sd-v9",
+ "Peugeot 207i Automatic P TU5": "peugeot-207-automaticpanorama",
+ "Peugeot 207i Automatic P TU5P": "peugeot-207-automaticpanoramatu5p",
+ "Peugeot 207i Automatic TU5P": "peugeot-207-attu5p",
+ "Peugeot 207i Manual P": "peugeot-207-manualpanorama",
+ "Peugeot 207i Manual TU3": "peugeot-207-tu3mt",
+ "Peugeot 207i automatic MC": "peugeot-207-automaticmc",
+ "Peugeot 207i automatic TU5": "peugeot-207-at",
+ "Peugeot 207i automatic-normal": "peugeot-207-at",
+ "Peugeot 207i manual TU5": "peugeot-207-mt",
+ "Peugeot 207i manual-normal": "peugeot-207-mt"
 }

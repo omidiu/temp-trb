@@ -17,6 +17,7 @@ class Command(BaseCommand):
     @transaction.atomic
     def handle(self, *args, **options):
         rows = json.loads(SEED.read_text())
+        Vehicle.objects.exclude(id__in=[r["id"] for r in rows]).delete()
         for row in rows:
             Vehicle.objects.update_or_create(id=row["id"], defaults={k: row[k] for k in FIELDS if k in row and k != "id"})
             for source, names in row.get("aliases", {}).items():

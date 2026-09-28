@@ -47,4 +47,37 @@ def divar(payload: dict) -> dict:
     }
 
 
-EXTRACTORS = {"divar": divar}
+def bama(payload: dict) -> dict:
+    d, price_info = payload["detail"], payload.get("price") or {}
+    # URL: /car/detail-<code>-<brand>-<model>-<trim>-<year>; the middle is Bama's trim slug.
+    parts = (d.get("url") or "").split("-")
+    raw_name = "-".join(parts[2:-1]) if len(parts) > 3 else ""
+    price = parse_int(price_info.get("price")) or None
+    price_type = price_info.get("type", "")
+    title = f"{(d.get('title') or '').replace('،', '')} {d.get('trim') or ''} مدل {d.get('year') or ''}".strip()
+    description = d.get("description") or ""
+    exclusion = rules.exclusion(title, description, price)
+    if price_type not in ("lumpsum", "negotiable", "") and not exclusion:
+        exclusion = "instalment"  # Bama's own price type says the shown price isn't the full price
+    location = d.get("location") or ""
+    mileage_text = d.get("mileage") or ""
+    posted = d.get("modified_date")
+    return {
+        "title": title,
+        "description": description,
+        "raw_name": raw_name,
+        "year": parse_year(d.get("year")),
+        "mileage": 0 if "صفر" in mileage_text else parse_int(mileage_text),
+        "price": price,
+        "gearbox": rules.gearbox(d.get("transmission") or ""),
+        "fuel_type": rules.fuel(d.get("fuel") or ""),
+        "body_condition": rules.body_condition(d.get("body_status") or ""),
+        "body_condition_raw": d.get("body_status") or "",
+        "exclusion": exclusion,
+        "city": "tehran" if location.startswith("تهران") else "other",
+        "posted_at": datetime.fromisoformat(posted).replace(tzinfo=timezone.utc) if posted else None,
+        "image_url": d.get("image") or "",
+    }
+
+
+EXTRACTORS = {"divar": divar, "bama": bama}

@@ -15,8 +15,15 @@ def alias_key(raw_name: str) -> str:
 def match_vehicle_id(source: str, raw_name: str) -> str | None:
     if not raw_name:
         return None
-    alias = VehicleAlias.objects.filter(source=source, raw_name=alias_key(raw_name)).first()
-    return alias.vehicle_id if alias else None
+    key = alias_key(raw_name)
+    alias = VehicleAlias.objects.filter(source=source, raw_name=key).first()
+    if alias:
+        return alias.vehicle_id
+    if source == "bama" and "-" in key:
+        # Bama slugs sometimes add a gearbox/variant segment to a trim we know ("dena-plusef7p-6mt").
+        alias = VehicleAlias.objects.filter(source=source, raw_name=key.rsplit("-", 1)[0], vehicle__isnull=False).first()
+        return alias.vehicle_id if alias else None
+    return None
 
 
 def normalize_raw(raw: RawListing) -> Listing:

@@ -3,6 +3,7 @@
 """
 
 import copy
+import re
 import json
 from pathlib import Path
 
@@ -11,6 +12,13 @@ SEED = Path(__file__).parent / "data" / "vehicles.seed.json"
 
 def fix(rows):
     for r in rows:
+        # Some spec URLs carry a second numeric page ID ("pars-specs-1463-471-elx"); Bama ads use
+        # the bare trim slug ("peugeot-pars-elx"), so drop it from the trim, ID and alias.
+        m = re.match(r"^\d+-(.+)$", r["trim"])
+        if m:
+            r["trim"] = m.group(1)
+            r["id"] = f"{r['make']}-{r['model']}-{r['trim']}"
+            r["aliases"] = {"bama": [r["id"]]}
         # Bama sometimes leaves the gearbox as just "N سرعته"; the trim name tells manual from automatic.
         if not r["gearbox"]:
             name = f"{r['trim']} {r['trim_fa']} {r['model_fa']}".lower()

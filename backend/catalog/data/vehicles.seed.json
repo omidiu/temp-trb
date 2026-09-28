@@ -420,12 +420,12 @@
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-at",
+  "id": "peugeot-207-at",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-at",
+  "trim": "at",
   "trim_fa": "اتوماتیک TU5",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -442,18 +442,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-at",
   "aliases": {
    "bama": [
-    "peugeot-207-381-at"
+    "peugeot-207-at"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-attu5p",
+  "id": "peugeot-207-attu5p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-attu5p",
+  "trim": "attu5p",
   "trim_fa": "اتوماتیک TU5P",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -470,18 +470,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-attu5p",
   "aliases": {
    "bama": [
-    "peugeot-207-381-attu5p"
+    "peugeot-207-attu5p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-automaticmc",
+  "id": "peugeot-207-automaticmc",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-automaticmc",
+  "trim": "automaticmc",
   "trim_fa": "MC اتوماتیک",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -498,18 +498,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticmc",
   "aliases": {
    "bama": [
-    "peugeot-207-381-automaticmc"
+    "peugeot-207-automaticmc"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-automaticpanorama",
+  "id": "peugeot-207-automaticpanorama",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-automaticpanorama",
+  "trim": "automaticpanorama",
   "trim_fa": "پانوراما اتوماتیک TU5",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -526,18 +526,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticpanorama",
   "aliases": {
    "bama": [
-    "peugeot-207-381-automaticpanorama"
+    "peugeot-207-automaticpanorama"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-automaticpanoramatu5p",
+  "id": "peugeot-207-automaticpanoramatu5p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-automaticpanoramatu5p",
+  "trim": "automaticpanoramatu5p",
   "trim_fa": "پانوراما اتوماتیک TU5P",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -554,18 +554,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-automaticpanoramatu5p",
   "aliases": {
    "bama": [
-    "peugeot-207-381-automaticpanoramatu5p"
+    "peugeot-207-automaticpanoramatu5p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-manualpanorama",
+  "id": "peugeot-207-manualpanorama",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-manualpanorama",
+  "trim": "manualpanorama",
   "trim_fa": "پانوراما دنده ای TU5",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -582,18 +582,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualpanorama",
   "aliases": {
    "bama": [
-    "peugeot-207-381-manualpanorama"
+    "peugeot-207-manualpanorama"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-manualpanoramatu5p",
+  "id": "peugeot-207-manualpanoramatu5p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-manualpanoramatu5p",
+  "trim": "manualpanoramatu5p",
   "trim_fa": "پانوراما دنده ای TU5P",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -610,18 +610,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualpanoramatu5p",
   "aliases": {
    "bama": [
-    "peugeot-207-381-manualpanoramatu5p"
+    "peugeot-207-manualpanoramatu5p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-manualtu5p",
+  "id": "peugeot-207-manualtu5p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-manualtu5p",
+  "trim": "manualtu5p",
   "trim_fa": "دنده ای TU5P",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -638,18 +638,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-manualtu5p",
   "aliases": {
    "bama": [
-    "peugeot-207-381-manualtu5p"
+    "peugeot-207-manualtu5p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-mt",
+  "id": "peugeot-207-mt",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-mt",
+  "trim": "mt",
   "trim_fa": "دنده ای TU5",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -666,18 +666,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-mt",
   "aliases": {
    "bama": [
-    "peugeot-207-381-mt"
+    "peugeot-207-mt"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-tu3mt",
+  "id": "peugeot-207-tu3mt",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-tu3mt",
+  "trim": "tu3mt",
   "trim_fa": "TU3",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -694,18 +694,18 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-tu3mt",
   "aliases": {
    "bama": [
-    "peugeot-207-381-tu3mt"
+    "peugeot-207-tu3mt"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-207-381-type5",
+  "id": "peugeot-207-type5",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "207",
   "model_fa": "پژو 207",
-  "trim": "381-type5",
+  "trim": "type5",
   "trim_fa": "تیپ 5",
   "family": "peugeot-207",
   "year_from": 1395,
@@ -722,7 +722,7 @@
   "bama_url": "/car-reviews/peugeot/207-specs-1167-381-type5",
   "aliases": {
    "bama": [
-    "peugeot-207-381-type5"
+    "peugeot-207-type5"
    ]
   },
   "fuel_type": "gasoline"
@@ -812,12 +812,12 @@
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-at",
+  "id": "peugeot-pars-at",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-at",
+  "trim": "at",
   "trim_fa": "اتوماتیک",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -834,18 +834,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-at",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-at"
+    "peugeot-pars-at"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-cng",
+  "id": "peugeot-pars-cng",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-cng",
+  "trim": "cng",
   "trim_fa": "دوگانه سوز",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -862,18 +862,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-cng",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-cng"
+    "peugeot-pars-cng"
    ]
   },
   "fuel_type": "dual"
  },
  {
-  "id": "peugeot-pars-471-elx",
+  "id": "peugeot-pars-elx",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-elx",
+  "trim": "elx",
   "trim_fa": "ELX-XU7",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -890,18 +890,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elx",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-elx"
+    "peugeot-pars-elx"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-elxtu5",
+  "id": "peugeot-pars-elxtu5",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-elxtu5",
+  "trim": "elxtu5",
   "trim_fa": "ELX-TU5",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -918,18 +918,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxtu5",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-elxtu5"
+    "peugeot-pars-elxtu5"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-elxxu7p",
+  "id": "peugeot-pars-elxxu7p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-elxxu7p",
+  "trim": "elxxu7p",
   "trim_fa": "ELX-XU7P",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -946,18 +946,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxxu7p",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-elxxu7p"
+    "peugeot-pars-elxxu7p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-elxxum",
+  "id": "peugeot-pars-elxxum",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-elxxum",
+  "trim": "elxxum",
   "trim_fa": "ELX-XUM",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -974,18 +974,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-elxxum",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-elxxum"
+    "peugeot-pars-elxxum"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-lx",
+  "id": "peugeot-pars-lx",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-lx",
+  "trim": "lx",
   "trim_fa": "LX",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -1002,18 +1002,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-lx",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-lx"
+    "peugeot-pars-lx"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-mt",
+  "id": "peugeot-pars-mt",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-mt",
+  "trim": "mt",
   "trim_fa": "XU7",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -1030,18 +1030,18 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-mt",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-mt"
+    "peugeot-pars-mt"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "peugeot-pars-471-xu7p",
+  "id": "peugeot-pars-xu7p",
   "make": "peugeot",
   "make_fa": "پژو",
   "model": "pars",
   "model_fa": "پژو پارس",
-  "trim": "471-xu7p",
+  "trim": "xu7p",
   "trim_fa": "XU7P",
   "family": "peugeot-pars",
   "year_from": 1379,
@@ -1058,7 +1058,7 @@
   "bama_url": "/car-reviews/peugeot/pars-specs-1463-471-xu7p",
   "aliases": {
    "bama": [
-    "peugeot-pars-471-xu7p"
+    "peugeot-pars-xu7p"
    ]
   },
   "fuel_type": "gasoline"
@@ -2016,12 +2016,12 @@
   "fuel_type": "dual"
  },
  {
-  "id": "samand-soren-459-plus",
+  "id": "samand-soren-plus",
   "make": "samand",
   "make_fa": "سمند",
   "model": "soren",
   "model_fa": "سمند سورن",
-  "trim": "459-plus",
+  "trim": "plus",
   "trim_fa": "پلاس EF7 بنزینی",
   "family": "samand-soren",
   "year_from": 1399,
@@ -2038,18 +2038,18 @@
   "bama_url": "/car-reviews/samand/soren-specs-1113-459-plus",
   "aliases": {
    "bama": [
-    "samand-soren-459-plus"
+    "samand-soren-plus"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "samand-soren-459-pluscng",
+  "id": "samand-soren-pluscng",
   "make": "samand",
   "make_fa": "سمند",
   "model": "soren",
   "model_fa": "سمند سورن",
-  "trim": "459-pluscng",
+  "trim": "pluscng",
   "trim_fa": "پلاس EF7 دوگانه سوز",
   "family": "samand-soren",
   "year_from": 1399,
@@ -2066,18 +2066,18 @@
   "bama_url": "/car-reviews/samand/soren-specs-1113-459-pluscng",
   "aliases": {
    "bama": [
-    "samand-soren-459-pluscng"
+    "samand-soren-pluscng"
    ]
   },
   "fuel_type": "dual"
  },
  {
-  "id": "samand-soren-459-plustu5p",
+  "id": "samand-soren-plustu5p",
   "make": "samand",
   "make_fa": "سمند",
   "model": "soren",
   "model_fa": "سمند سورن",
-  "trim": "459-plustu5p",
+  "trim": "plustu5p",
   "trim_fa": "پلاس TU5P",
   "family": "samand-soren",
   "year_from": 1399,
@@ -2094,18 +2094,18 @@
   "bama_url": "/car-reviews/samand/soren-specs-1113-459-plustu5p",
   "aliases": {
    "bama": [
-    "samand-soren-459-plustu5p"
+    "samand-soren-plustu5p"
    ]
   },
   "fuel_type": "gasoline"
  },
  {
-  "id": "samand-soren-459-plusxu7p",
+  "id": "samand-soren-plusxu7p",
   "make": "samand",
   "make_fa": "سمند",
   "model": "soren",
   "model_fa": "سمند سورن",
-  "trim": "459-plusxu7p",
+  "trim": "plusxu7p",
   "trim_fa": "پلاس XU7P بنزینی",
   "family": "samand-soren",
   "year_from": 1399,
@@ -2122,7 +2122,7 @@
   "bama_url": "/car-reviews/samand/soren-specs-1113-459-plusxu7p",
   "aliases": {
    "bama": [
-    "samand-soren-459-plusxu7p"
+    "samand-soren-plusxu7p"
    ]
   },
   "fuel_type": "gasoline"

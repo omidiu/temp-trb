@@ -58,3 +58,13 @@ def test_divar_extract():
     assert (f["year"], f["mileage"], f["price"]) == (1388, 242_000, 880_000_000)
     assert (f["gearbox"], f["fuel_type"], f["body_condition"]) == ("manual", "gasoline", "clean")
     assert f["exclusion"] == ""
+
+
+def test_bama_extract():
+    ads = json.loads((FIX / "bama_search.json").read_text())["data"]["ads"]
+    ad = next(a for a in ads if a["type"] == "ad")
+    f = extract.bama(ad)
+    assert f["raw_name"] == "peugeot-206ir-type3panorama"
+    assert (f["year"], f["mileage"], f["city"]) == (1401, 70_000, "tehran")
+    assert f["body_condition"] == "clean"
+    assert f["exclusion"] == "placeholder"  # negotiable ads carry price 0
