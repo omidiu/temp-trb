@@ -2,6 +2,8 @@
 
 import logging
 
+import httpx
+
 from ingest import http
 from ingest.models import RawListing
 
@@ -33,11 +35,12 @@ def _search(brand_model: str, pagination_data=None) -> dict:
     return res.json()
 
 
-def crawl(cap: int, stdout=None) -> int:
-    """Fetch up to `cap` new Listings, spread evenly over MODELS. Resumable: known tokens are skipped."""
-    per_model = max(1, cap // len(MODELS))
+def crawl(cap: int, stdout=None, models=None) -> int:
+    """Fetch up to `cap` new Listings, spread evenly over MODELS (or `models`). Resumable: known tokens are skipped."""
+    models = models or MODELS
+    per_model = max(1, cap // len(models))
     total = 0
-    for brand_model in MODELS:
+    for brand_model in models:
         got, pagination, mismatches = 0, None, 0
         while got < per_model and mismatches < 15:
             data = _search(brand_model, pagination)
@@ -48,7 +51,11 @@ def crawl(cap: int, stdout=None) -> int:
                 token = row.get("token") or row["action"]["payload"]["token"]
                 if RawListing.objects.filter(source="divar", source_id=token).exists():
                     continue
-                res = http.get(POST_URL.format(token=token))
+                try:
+                    res = http.get(POST_URL.format(token=token))
+                except httpx.TransportError as e:
+                    log.warning("divar post %s: %s (skipped)", token, e)
+                    continue
                 if res.status_code != 200:
                     log.warning("divar post %s: HTTP %s", token, res.status_code)
                     continue

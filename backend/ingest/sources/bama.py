@@ -12,10 +12,11 @@ MODELS = [
 ]
 
 
-def crawl(cap: int, stdout=None) -> int:
-    per_model = max(1, cap // len(MODELS))
+def crawl(cap: int, stdout=None, models=None) -> int:
+    models = models or MODELS
+    per_model = max(1, cap // len(models))
     total = 0
-    for vehicle in MODELS:
+    for vehicle in models:
         got, page = 0, 0
         brand = vehicle.split(",")[0]
         while got < per_model:

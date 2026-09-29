@@ -11,8 +11,9 @@ class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument("source", choices=SOURCES)
         parser.add_argument("--cap", type=int, help="Max new Listings to fetch")
+        parser.add_argument("--model", action="append", help="Only these Source model filters (e.g. Shahin)")
 
-    def handle(self, source, cap=None, **options):
+    def handle(self, source, cap=None, model=None, **options):
         module, default_cap = SOURCES[source]
-        n = module.crawl(cap or default_cap, stdout=self.stdout)
+        n = module.crawl(cap or default_cap, stdout=self.stdout, models=model)
         self.stdout.write(self.style.SUCCESS(f"{source}: {n} new raw listings"))

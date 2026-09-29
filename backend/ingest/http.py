@@ -29,11 +29,24 @@ def _wait():
     _last = time.monotonic()
 
 
+RETRIES = 3
+
+
+def _send(method: str, url: str, **kw) -> httpx.Response:
+    """Retry network errors with a growing pause; after RETRIES failures, raise httpx.TransportError."""
+    for attempt in range(RETRIES + 1):
+        _wait()
+        try:
+            return client().request(method, url, **kw)
+        except httpx.TransportError:
+            if attempt == RETRIES:
+                raise
+            time.sleep(10 * (attempt + 1))
+
+
 def get(url: str, **kw) -> httpx.Response:
-    _wait()
-    return client().get(url, **kw)
+    return _send("GET", url, **kw)
 
 
 def post(url: str, **kw) -> httpx.Response:
-    _wait()
-    return client().post(url, **kw)
+    return _send("POST", url, **kw)
