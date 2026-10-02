@@ -12,7 +12,7 @@
 - [x] Popularity percentile and Depreciation per model
 - [x] `compute_market` command; tests reproduce the spec's worked example
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

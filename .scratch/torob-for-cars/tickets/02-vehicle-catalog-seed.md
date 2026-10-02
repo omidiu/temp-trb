@@ -11,7 +11,7 @@
 - [x] Loader command populates Vehicle and VehicleAlias
 - [x] Results display Vehicle make/model/trim
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

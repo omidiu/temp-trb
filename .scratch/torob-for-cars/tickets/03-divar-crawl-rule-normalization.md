@@ -12,7 +12,7 @@
 - [x] Unmatched Listings are kept but not searchable
 - [x] Tests for number parsing and condition mapping
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

@@ -11,7 +11,7 @@
 - [x] Template fallback built from the same fact sheet; API reports which was used
 - [x] Tests for the grounding check with a fake provider
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

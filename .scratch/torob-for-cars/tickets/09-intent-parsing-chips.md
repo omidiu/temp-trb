@@ -12,7 +12,7 @@
 - [x] Chip bar supports delete, edit and add; new text replaces the Intent
 - [x] Golden test with 12 example sentences
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

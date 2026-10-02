@@ -10,7 +10,7 @@
 - [x] Snapshot export and import commands
 - [x] Documented in README
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

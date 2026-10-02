@@ -11,7 +11,7 @@
 - [x] `dedup` command rebuilds Offers idempotently
 - [x] Tests for merge and non-merge cases
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

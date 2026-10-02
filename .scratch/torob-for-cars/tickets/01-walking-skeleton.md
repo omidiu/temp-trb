@@ -11,7 +11,7 @@
 - [x] Nuxt results page renders right-to-left with Vazirmatn and Persian digits
 - [x] A test covers the budget filter
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

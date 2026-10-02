@@ -9,7 +9,7 @@
 - [x] `GET /api/offers/{id}` returns detail with comparables
 - [x] Price strip, breakdown bars and source links render right-to-left
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

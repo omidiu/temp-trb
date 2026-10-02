@@ -9,7 +9,7 @@
 - [x] Tries relaxing each Constraint alone; returns the smallest relaxations that yield results, with counts
 - [x] UI shows them as one-tap chips that update the Intent
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

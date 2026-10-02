@@ -12,7 +12,7 @@ from search.intent import resolve
 from search.parse import parse
 from search.ranking import rank
 
-OUT = Path(__file__).resolve().parents[4] / ".scratch" / "torob-for-cars-build" / "eval"
+OUT = Path(__file__).resolve().parents[4] / ".scratch" / "torob-for-cars" / "eval"
 SEARCHES = [
     "ماشین خانوادگی تا ۸۰۰ میلیون، خیلی کم‌مصرف", "برای اسنپ، دوگانه‌سوز، مدل ۹۸ به بالا",
     "۲۰۶ یا کوییک تا ۶۰۰ میلیون، بدون رنگ", "ماشین شهری اتوماتیک", "ماشین اقتصادی تا ۵۰۰ میلیون",

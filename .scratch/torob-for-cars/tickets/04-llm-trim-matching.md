@@ -12,7 +12,7 @@
 - [x] Works without an API key: LLM steps are skipped and logged
 - [x] Tests use a fake provider
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

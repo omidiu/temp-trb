@@ -11,4 +11,4 @@
 - [ ] Explanation fallback rate over 20 searches (target ≤ 10%)
 - [ ] Fixes applied
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)

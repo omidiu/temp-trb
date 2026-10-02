@@ -10,7 +10,7 @@
 - [x] Handles the `206ir` model-key quirk and ignores Bama's fake total count
 - [x] Bama Listings go through the same normalization
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 

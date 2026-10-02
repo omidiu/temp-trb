@@ -12,7 +12,7 @@
 - [x] Tie-break by confidence then newest post
 - [x] Score breakdown in API; template one-line reason on each card; test reproduces the spec's worked example
 
-Spec: [spec.md](../../torob-for-cars/spec.md)
+Spec: [spec.md](../spec.md)
 
 ## Notes
 
