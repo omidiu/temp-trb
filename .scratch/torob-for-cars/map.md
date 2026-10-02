@@ -4,13 +4,13 @@ Labels: wayfinder:map
 
 ## Destination
 
-A build-ready spec at `.scratch/torob-for-cars/spec.md` for "Torob for Cars" (Iranian used-car market): product scope, domain model, the crawl → normalize → rank → explain pipeline with every piece of logic defined, stack decisions, and the demo-video plan. Done when `/to-tickets` can slice it into build tickets with nothing left to decide.
+A build-ready spec at `.scratch/torob-for-cars/spec.md` for "Torob for Cars" (Iranian used-car market): product scope, domain model, the crawl → normalize → rank → explain pipeline with every piece of logic defined, and stack decisions. Done when `/to-tickets` can slice it into build tickets with nothing left to decide.
 
 ## Notes
 
-- **Context**: hiring-challenge style brief ("Build Torob for X"), judged mainly on the ≤5 min demo video and a clear point of view. ~1–2 weeks part-time.
+- **Context**: hiring-challenge style brief ("Build Torob for X"), judged mainly on a clear point of view. ~1–2 weeks part-time.
 - **Point of view**: intent-first search (entry) + deal verdict / fair price (core ranking signal) + cross-Source dedup into Offers (bonus). The user must understand the logic behind each: every grilling ticket ends with the logic written plainly, with formulas and worked examples.
-- **Standing decisions**: Persian RTL UI. LLM only at the edges (text → structure: Intent parsing, field extraction; structure → prose: explanation); fair price, verdict and ranking are deterministic, inspectable formulas. Real crawler, demo runs on a frozen snapshot of a few thousand Listings. Scope: ~10–15 most-listed models in 1–2 cities. Stack: Nuxt + Django REST Framework + Postgres, simple scheduled crawl job (no Celery unless needed). Deliverable is the video only; no public hosting.
+- **Standing decisions**: Persian RTL UI. LLM only at the edges (text → structure: Intent parsing, field extraction; structure → prose: explanation); fair price, verdict and ranking are deterministic, inspectable formulas. Real crawler, demo runs on a frozen snapshot of a few thousand Listings. Scope: ~10–15 most-listed models in 1–2 cities. Stack: Nuxt + Django REST Framework + Postgres, simple scheduled crawl job (no Celery unless needed). No public hosting.
 - **Vocabulary**: use `CONTEXT.md` (Source, Listing, Vehicle, Offer, Intent).
 - **Skills**: grilling tickets → `grilling` + `domain-modeling`; research → `research`; prototype → `prototype`.
 - **Git**: no Claude co-author trailer on commits.
@@ -31,7 +31,6 @@ A build-ready spec at `.scratch/torob-for-cars/spec.md` for "Torob for Cars" (Ir
 - [LLM provider and access](issues/11-llm-provider.md): Claude (Haiku for extraction, Sonnet for explanations) behind a swappable module and a cache.
 - [Code architecture](issues/12-architecture.md): Compose with Postgres, DRF and Nuxt; five Django apps; snapshot as a fixture.
 - [Evaluation](issues/13-evaluation.md): small hand checks plus a golden Intent test.
-- [Demo video](issues/14-demo-video.md): a five-beat, 5-minute storyline.
 
 ## Not yet specified
 
@@ -39,6 +38,6 @@ _Empty: every patch graduated and was resolved. The spec draft is at [spec.md](s
 
 ## Out of scope
 
-- Public hosting / a live URL for judges: the video is the only deliverable (user decision while charting).
+- Public hosting / a live URL for judges (user decision while charting).
 - Nationwide, all-makes coverage and new-car dealer/factory prices: depth on ~10–15 used models beats breadth.
 - Second city, Sheypoor, phone- or image-based dedup, user accounts and alerts: they add work without adding to the point of view (decided while writing the spec).

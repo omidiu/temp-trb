@@ -16,9 +16,8 @@ Buying a used car in Iran means scrolling Divar and Bama, reading messy ads, see
 | Used cars, **Tehran only** | Other cities, new-car and dealer prices |
 | About 10 models (see §4) | All makes |
 | Sources: **Divar** and **Bama** | Sheypoor, Karnameh, Hamrah-e Mechanic |
-| One frozen snapshot of about 4–5k Listings | Live crawling during the demo, scheduled re-crawls |
+| One frozen snapshot of about 4–5k Listings | Live crawling during the demo, scheduled re-crawls, public hosting |
 | Persian right-to-left UI | English UI, user accounts, alerts, saved searches |
-| Demo video, 5 minutes max | Public hosting |
 
 **Why Tehran only:** the map allowed 1–2 cities, but one city doubles the Offers per comparable group, which is what the verdict needs, and the city Constraint becomes a fixed default.
 **Why no Sheypoor:** Divar plus Bama already give enough volume and two naming schemes to reconcile. A third Source adds crawling work without a new idea to show.
@@ -38,7 +37,7 @@ Offline steps run once to build the snapshot. Search runs on every request. LLM 
 ## 4. Data gathering (crawl)
 
 - **Access:** a one-off, private, non-commercial snapshot fetched from the public JSON endpoints that the Sources' own web apps use: Divar's `api.divar.ir/v8/postlist/w/search`, and Bama's listing JSON. **No login, no phone numbers, no captcha bypass.** One request every 2 seconds or slower, stopping at about 3k Divar and 1.5k Bama Listings. The raw response is stored untouched for every Listing.
-  - *Why:* the brief explicitly asks to "crawl offers", the volume is tiny, and nothing is republished commercially. Divar's official partner API (Kenar) is the proper production route; the video says so.
+  - *Why:* the brief explicitly asks to "crawl offers", the volume is tiny, and nothing is republished commercially. Divar's official partner API (Kenar) is the proper production route.
   - ⚠️ **Assumption for you to accept:** both Sources' terms forbid automated copying. This spec assumes a small private demo snapshot is acceptable to you. If not, the fallback is to apply for Kenar (Divar only) and drop Bama.
 - **Models in scope** (the most-listed in Tehran according to the research): Peugeot 206, Peugeot 207i, Peugeot 405, Peugeot Pars, Pride (111/131/132), Tiba, Dena, Samand, Quick, Shahin. Exact trims come from the catalog.
 - **Model-query quirks** (from research): on Bama use `206ir`, because `peugeot,206` silently returns every car, and ignore Bama's total count, which is fake.
@@ -195,7 +194,7 @@ Anyone can recompute that from the breakdown shown in the UI.
   - `claude-sonnet-5` writes the explanation (better Persian prose).
   - Every call goes through the `llm` module, so the provider can be swapped.
   - The cache makes demo runs repeatable and cheap.
-  - ⚠️ **Assumption:** you can reach the Anthropic API from where you develop and record. If not, the module swaps to another provider.
+  - ⚠️ **Assumption:** you can reach the Anthropic API from where you develop and run the demo. If not, the module swaps to another provider.
 
 ## 14. Evaluation (enough to trust the demo)
 
@@ -204,17 +203,7 @@ Anyone can recompute that from the breakdown shown in the UI.
 - **Verdicts:** eyeball 10 Offers (2 per verdict, plus 2 without one) and check their comparables make sense.
 - **Grounding:** count how often the explanation falls back to the template over 20 searches. Target ≤ 10%.
 
-## 15. Demo video (5:00 max)
-
-| Time | Beat |
-|---|---|
-| 0:00–0:30 | The problem: the same 206 on Divar and Bama, messy ads, "is 495M a good price?" |
-| 0:30–1:00 | The pipeline on one slide with real counts (Listings crawled → matched → Offers) |
-| 1:00–3:15 | Live: type "ماشین خانوادگی تا ۸۰۰ میلیون، خیلی کم‌مصرف" (family car up to 800M, very low fuel use) → chips light up with their source words → open the Need chip → top pick and explanation → Offer detail price strip → a ⚠️ suspicious Offer → "اتوماتیک زیر ۳۰۰ میلیون" (automatic under 300M) → relaxation suggestions |
-| 3:15–4:30 | Under the hood: the three LLM jobs (Intent, trim matching, explanation) versus the formulas (fair price, verdict, ranking), and the grounding check catching a hallucinated number |
-| 4:30–5:00 | Next steps: Kenar API, more cities, sale-price data |
-
-## 16. Open risks
+## 15. Open risks
 
 - Sources may change their endpoints or block requests before the snapshot is taken → take the snapshot first, early in the build.
 - Too few comparables for rare trims → the tiers fall back, and the demo searches use common models.
